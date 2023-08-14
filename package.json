@@ -1,8 +1,8 @@
 {
-  "name": "sassverse",
+  "name": "GetMeThrilled",
   "version": "0.0.1",
   "description": "Software marketplace",
-  "productName": "Sassverse",
+  "productName": "GetMeThrilled",
   "author": "sharad22gupta <sharad22gupta@gmail.com>",
   "private": true,
   "scripts": {

@@ -12,7 +12,8 @@ const { configure } = require('quasar/wrappers');
 
 module.exports = configure(function (ctx) {
   return {
-		publicPath: process.env.NODE_ENV === "production" ? "/get-me-thrilled/" : "/",
+    publicPath:
+      process.env.NODE_ENV === 'production' ? '/get-me-thrilled/' : '/',
     // https://quasar.dev/quasar-cli/supporting-ts
     supportTS: false,
 
@@ -141,8 +142,8 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Sassverse`,
-        short_name: `Sassverse`,
+        name: `GetMeThrilled`,
+        short_name: `GetMeThrilled`,
         description: `Software marketplace`,
         display: 'standalone',
         orientation: 'portrait',
@@ -206,7 +207,7 @@ module.exports = configure(function (ctx) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'sassverse',
+        appId: 'GetMeThrilled',
       },
 
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
